@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script>
+        $(document).ready(function(){
+//            var w = $(window).resize();
+//            console.log(w);
+            $(window).resize(function(){
+                var w = $(this).width();
+//                console.log(w);
+                if(w>960){
+                    console.log("桌機板")
+                }else{
+                    console.log("手機板")
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
